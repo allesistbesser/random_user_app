@@ -1,12 +1,12 @@
-import './App.css';
+import React from 'react'
+import Show from "./Show"
 
-function App() {
-  return (
-    <div className="App">
-     
-     <h2> Alles ist besser</h2>
-    </div>
-  );
+ function App() {
+    return (
+        <div>
+            <Show />
+        </div>
+    )
 }
 
 export default App;
